@@ -1,0 +1,57 @@
+/* From Uiverse.io by shadowmurphy */
+#closed-menu {
+  width: 80px;
+}
+
+#open-menu {
+  width: 200px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  background-color: #0c0b0b;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.input #active {
+  background-color: rgb(41, 41, 41);
+}
+
+
+
+.input-option{
+  display: flex;
+  padding-bottom: 6px;
+}
+.create-option{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6px;
+}
+.group-color {
+  width: 10px;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.value svg {
+  width: 30px;
+  animation: none;
+}

@@ -1,0 +1,99 @@
+.todo-card {
+    width: 80vw;
+    height: 10vh;
+    background: #171717;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.todo-card .group-color:hover {
+    width: 50px;
+    transition: 0.1s ease-in-out;
+}
+
+.todo-edit {
+    visibility: hidden;
+}
+
+.todo-card .group-color:hover .todo-edit {
+    visibility: visible;
+}
+
+.todo-edit button {
+    background: none;
+    border: none;
+}
+
+.todo-edit button svg {
+    animation: none;
+}
+
+.todo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.todo-name {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.todo-control {
+    background-color: red;
+    width: 10px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    transition: 0.1s ease-in-out;
+}
+
+.todo-status button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    /* transition: 0.5s ease-in-out; */
+}
+
+.todo-delete button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-delete svg {
+    animation: none;
+}
+
+.todo-control:hover {
+    width: 50px;
+}
+
+.todo-control:hover .todo-delete {
+
+    visibility: visible;
+}
+
+.todo-status svg {
+    animation: none;
+}

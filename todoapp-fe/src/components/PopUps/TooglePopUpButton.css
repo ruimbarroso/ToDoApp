@@ -1,0 +1,15 @@
+.crud-button{
+    border: 0;
+    background-color: #0c0b0b;
+    border-radius: 100px;
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.crud-button svg{
+    animation: none;
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,99 @@
+#popup-form-container {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    width: calc(100vw - 10vh);
+    height: 90vh;
+    padding: 10vh 0 0 10vh;
+    margin: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: start;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+#popup-form {
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    width: 20vw;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+}
+
+
+.group-input-container {
+    position: relative;
+}
+.group-input-container .input-checkbox{
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(223, 223, 223);
+    width: calc(18vw - 3rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.group-input-container .input-checkbox input{
+    width: 20px;
+    margin: 0;
+}
+.group-input-container input,
+.form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+}
+
+.group-input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    width: calc(18vw - 3rem);
+}
+
+.group-submit {
+    display: block;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  .group-cancel{
+    display: block;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #e54646;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }

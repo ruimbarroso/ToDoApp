@@ -16,6 +16,10 @@ ToDoApp is a full-stack application built with a **Bun + TypeScript backend**, a
 - **Responsive Design**:
   - Works seamlessly on both desktop and mobile devices.
 
+![To Dos to complete](https://github.com/ruimbarroso/ToDoApp/blob/main/readme-images/Screenshot%202025-02-22%20181210.png)
+![Group](https://github.com/ruimbarroso/ToDoApp/blob/main/readme-images/Screenshot%202025-02-22%20181233.png)
+![Create/Edit Todo](https://github.com/ruimbarroso/ToDoApp/blob/main/readme-images/Screenshot%202025-02-22%20181322.png)
+![Create/Edit Group](https://github.com/ruimbarroso/ToDoApp/blob/main/readme-images/Screenshot%202025-02-22%20181345.png)
 ---
 
 ## Installation

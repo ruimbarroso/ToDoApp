@@ -5,10 +5,19 @@ import { useEffect, useState, type ReactNode } from "react";
 import LoadingCircle from "../components/LoadingCircle/LoadingCircle";
 import { MessageType, usePopUps } from "../context/popupsContext";
 
-interface RouteProps {
+/**
+ * A protected route component that ensures only authenticated users can access its children.
+ * If the user is not authenticated, they are redirected to the login page.
+ *
+ * @component
+ *
+ * @param {Object} props - The component props.
+ * @param {ReactNode} props.children - The child components to render if the user is authenticated.
+ * @returns {JSX.Element} - Returns the children if the user is authenticated, otherwise redirects to the login page.
+ */
+const ProtectedRoute = ({ children }: {
   children: ReactNode;
-}
-const ProtectedRoute = ({ children }: RouteProps) => {
+}) => {
   const { user, refresh } = useAuth();
   const [isLoading, setIsLoading] = useState(true);
   const { shift } = usePopUps();

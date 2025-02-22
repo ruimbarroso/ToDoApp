@@ -97,3 +97,11 @@
 .todo-status svg {
     animation: none;
 }
+
+
+@media screen and (max-height: 500px) {
+    .todo-card {
+        height: 50px;
+        border-radius: 10px;
+    }
+}

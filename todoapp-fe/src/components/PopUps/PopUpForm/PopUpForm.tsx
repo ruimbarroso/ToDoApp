@@ -72,7 +72,7 @@ const CreateGroupForm = ({ toEdit }: { toEdit: Group }) => {
                     onChange={(e) => setNewGroup({ ...newGroup, description: e.target.value })}
                 />
             </div>
-            <SketchPicker width="18vw"
+            <SketchPicker width={null}
                 color={`#${newGroup.color}`}
                 onChange={(updatedColor) => setNewGroup({ ...newGroup, color: updatedColor.hex.replace('#', '') })}
             />

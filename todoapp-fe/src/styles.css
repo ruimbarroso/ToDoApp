@@ -25,6 +25,11 @@ body {
     height: 20vh;
 }
 
-@media screen {
-    
+@media screen and (max-width: 500px) {
+    #group-header{
+        height: 150px;
+    }
+    .group-header-section{
+        height: 150px;
+    }
 }
